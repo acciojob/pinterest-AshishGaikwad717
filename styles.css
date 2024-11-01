@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+.hero{
+	display:inline-block;
+	justify-content:justify;
+	align-items:center;
+	text-align:center;
+}
+img{
+	width:200px;
+	height:150px;
+	object-fit:cover;
+}
+h1{
+	display:inline;
+	word-wrap:break-word;
+}
