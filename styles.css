@@ -1,16 +1,58 @@
-/*  your css code here. If applicable */
-.hero{
-	display:inline-block;
-	justify-content:justify;
-	align-items:center;
-	text-align:center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-img{
-	width:200px;
-	height:150px;
-	object-fit:cover;
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
 }
-h1{
-	display:inline;
-	word-wrap:break-word;
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero-image {
+    width: 60%;
+    object-fit: cover;
+}
+
+.content {
+    padding: 20px;
+    text-align: left;
+}
+
+.content h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.explore-button {
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.explore-button:hover {
+    background-color: #d62828;
 }
